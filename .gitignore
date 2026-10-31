@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Downloaded audio and generated files
+downloads/
+*.wav
+*.mp3
+*.m4a
+*.webm
+
+# Vector DB
+chroma_db/
